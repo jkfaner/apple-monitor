@@ -1,7 +1,7 @@
 package com.github.jkfaner.service;
 
 import cn.hutool.http.HttpUtil;
-import com.github.jkfaner.bean.Bark;
+import com.github.jkfaner.service.domain.Bark;
 import com.github.jkfaner.common.IBaseObject;
 
 import java.util.HashMap;

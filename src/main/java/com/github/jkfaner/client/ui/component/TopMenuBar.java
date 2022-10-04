@@ -1,12 +1,14 @@
 package com.github.jkfaner.ui.component;
 
 import cn.hutool.core.thread.ThreadUtil;
+import com.formdev.flatlaf.FlatLaf;
 import com.formdev.flatlaf.extras.FlatAnimatedLafChange;
 import com.github.jkfaner.Application;
 import com.github.jkfaner.common.IBaseObject;
 import com.github.jkfaner.ui.InitUtils;
 import com.github.jkfaner.ui.constant.ThemeConstants;
 import com.github.jkfaner.ui.dialog.AboutDialog;
+import com.github.jkfaner.ui.form.MainWindow;
 import com.github.jkfaner.util.UpgradeUtil;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -23,8 +25,10 @@ import java.awt.event.ActionEvent;
  **/
 @Slf4j
 public class TopMenuBar extends JMenuBar implements IBaseObject<TopMenuBar> {
-    private TopMenuBar menuBar;
-    private JMenu themeMenu;
+
+    private static TopMenuBar menuBar; // 必须为静态属性 内存中只允许有一份
+
+    private static JMenu themeMenu;
 
     /**
      * 最初主题数量
@@ -35,12 +39,9 @@ public class TopMenuBar extends JMenuBar implements IBaseObject<TopMenuBar> {
      * 主题名称
      */
     private static final String[] themeNames = {
-            ThemeConstants.DARK_PURPLE_THEME,
-            ThemeConstants.FLAT_DARCULA_THEME,
-            ThemeConstants.DEFAULT_THEME,
-            ThemeConstants.FLAT_DARK_THEME,
             ThemeConstants.FLAT_LIGHT_THEME,
-            ThemeConstants.Flat_IntelliJ_THEME
+            ThemeConstants.FLAT_DARCULA_THEME,
+            ThemeConstants.DARK_PURPLE_THEME,
     };
 
     @Override
@@ -53,24 +54,27 @@ public class TopMenuBar extends JMenuBar implements IBaseObject<TopMenuBar> {
     public void init() {
         TopMenuBar topMenuBar = getInstance();
 
-        // 一级菜单
-        JMenu fileMenu = new JMenu("文件");
-        /*
-        JMenuItem stateMenu = new JMenuItem("国家");
+        // ---开始
+        JMenu startMenu = new JMenu("开始");
+
         JMenuItem patternMenu = new JMenuItem("模式");
         JCheckBoxMenuItem addressPatternMenuItem = new JCheckBoxMenuItem("按地区");
         JCheckBoxMenuItem storePatternMenuItem = new JCheckBoxMenuItem("按店铺");
         patternMenu.add(addressPatternMenuItem);
         patternMenu.add(storePatternMenuItem);
-        fileMenu.add(stateMenu);
-        fileMenu.add(patternMenu);
-         */
-        topMenuBar.add(fileMenu);
+        startMenu.add(patternMenu);
 
-        /*
+        JMenuItem stateMenu = new JMenuItem("国家");
+        startMenu.add(stateMenu);
+
+        topMenuBar.add(startMenu);
+
+        // ---窗口
         JMenu windowMenu = new JMenu("窗口");
         themeMenu = new JMenu("主题");
         initThemesMenu();
+        windowMenu.add(themeMenu);
+
         JCheckBoxMenuItem defaultMaxWindowItem = new JCheckBoxMenuItem("进入全屏幕");
         defaultMaxWindowItem.addActionListener(e -> {
             boolean selected = defaultMaxWindowItem.isSelected();
@@ -83,19 +87,21 @@ public class TopMenuBar extends JMenuBar implements IBaseObject<TopMenuBar> {
             Application.config.save();
         });
         defaultMaxWindowItem.setSelected(Application.config.isDefaultMaxWindow());
-//        windowMenu.add(themeMenu);
-//        windowMenu.add(defaultMaxWindowItem);
+        windowMenu.add(defaultMaxWindowItem);
+
         topMenuBar.add(windowMenu);
 
-        JMenu aboutMenu = new JMenu("关于");
-        aboutMenu.addActionListener(e -> aboutActionPerformed());
+        // ----帮助
         JMenu helpMenu = new JMenu("帮助");
         JMenuItem checkForUpdatesItem = new JMenuItem("检查更新");
         checkForUpdatesItem.addActionListener(e -> checkForUpdateListening());
-//        helpMenu.add(checkForUpdatesItem);
-        topMenuBar.add(aboutMenu);
+        helpMenu.add(checkForUpdatesItem);
+
+        JMenuItem aboutMenu = new JMenuItem("关于");
+        aboutMenu.addActionListener(e -> aboutActionPerformed());
+        helpMenu.add(aboutMenu);
+
         topMenuBar.add(helpMenu);
-         */
     }
 
     private void checkForUpdateListening() {
@@ -138,14 +144,13 @@ public class TopMenuBar extends JMenuBar implements IBaseObject<TopMenuBar> {
             Application.config.save();
 
             InitUtils.initTheme();
+            // 更新UI
             SwingUtilities.updateComponentTreeUI(Application.mainFrame);
-//            SwingUtilities.updateComponentTreeUI(MainWindow.getInstance().getTabbedPane());
-
-//                FlatLaf.updateUI();
+//            SwingUtilities.updateComponentTreeUI(new MainWindow().getInstance().getMainPanel());
+//            FlatLaf.updateUI();
 
             FlatAnimatedLafChange.hideSnapshotWithAnimation();
-
-//            initThemesMenu();
+            initThemesMenu();
 
         } catch (Exception e1) {
 //            JOptionPane.showMessageDialog(MainWindow.getInstance().getMainPanel(), "Save failed!\n\n" + e1.getMessage(), "Failed",

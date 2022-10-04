@@ -5,7 +5,7 @@ import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson2.JSON;
 import com.github.jkfaner.Application;
-import com.github.jkfaner.bean.VersionSummary;
+import com.github.jkfaner.service.domain.VersionSummary;
 import com.github.jkfaner.constant.AppConstants;
 import com.github.jkfaner.ui.constant.UIConstants;
 import lombok.extern.slf4j.Slf4j;

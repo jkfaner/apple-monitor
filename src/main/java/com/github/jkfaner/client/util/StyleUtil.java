@@ -1,6 +1,6 @@
-package com.github.jkfaner.ui;
+package com.github.jkfaner.client.ui;
 
-import com.github.jkfaner.ui.form.MainWindow;
+import com.github.jkfaner.client.ui.form.MainWindow;
 
 import javax.swing.*;
 import java.awt.*;

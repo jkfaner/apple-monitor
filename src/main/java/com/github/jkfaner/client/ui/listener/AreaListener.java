@@ -2,7 +2,6 @@ package com.github.jkfaner.ui.listener;
 
 import cn.hutool.log.Log;
 import cn.hutool.log.LogFactory;
-import com.github.jkfaner.constant.AppConstants;
 import com.github.jkfaner.domain.dto.AddressDto;
 import com.github.jkfaner.sdk.ServiceSDK;
 import com.github.jkfaner.ui.constant.UIConstants;

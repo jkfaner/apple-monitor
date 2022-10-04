@@ -40,7 +40,6 @@ public class MainFrame extends JFrame implements IBaseObject<MainFrame> {
         // 初始化菜单
         topMenuBar.init();
         // 设置菜单
-        System.out.println(topMenuBar.getMenu(0));
         setJMenuBar(topMenuBar);
         // 设置位置
         ComponentUtil.setPreferSizeAndLocateToCenter(this, 0.6, 0.8);

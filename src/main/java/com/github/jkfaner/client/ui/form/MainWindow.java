@@ -1,6 +1,7 @@
 package com.github.jkfaner.ui.form;
 
 import com.github.jkfaner.common.IBaseObject;
+import com.github.jkfaner.constant.AppConstants;
 import com.intellij.uiDesigner.core.GridConstraints;
 import com.intellij.uiDesigner.core.GridLayoutManager;
 import lombok.Getter;
@@ -19,7 +20,7 @@ import java.awt.*;
 public class MainWindow implements IBaseObject<MainWindow> {
     private JPanel mainPanel;
     private JTextPane logTextPane;
-    private JPanel darkJPanel;
+    private JPanel barkJPanel;
     private JPanel controlJPanel;
     private JPanel storeJPanel;
     private JPanel modeJPanel;
@@ -49,6 +50,18 @@ public class MainWindow implements IBaseObject<MainWindow> {
         mainWindow.getStoreJPanel().add(areaFrom.getMainJPanel(), gridConstraints);
         mainWindow.getModeJPanel().add(modelForm.getMainJPanel(), gridConstraints);
 
+        mainWindow.getLogTextPane().setContentType("text/html; charset=utf-8");
+        mainWindow.getLogTextPane().setText(getLogInfoText());
+    }
+
+    private static String getLogInfoText() {
+        StringBuilder logInfoBuilder = new StringBuilder();
+        logInfoBuilder.append("正在加载零售店列表和机型...");
+        logInfoBuilder.append("<br/>");
+        logInfoBuilder.append("载入成功！");
+        logInfoBuilder.append("<br/>");
+        logInfoBuilder.append("<h3>☆☆☆欢迎使用" + AppConstants.APP_TITLE + "☆☆☆<h3>");
+        return logInfoBuilder.toString();
     }
 
     {
@@ -67,7 +80,7 @@ public class MainWindow implements IBaseObject<MainWindow> {
      */
     private void $$$setupUI$$$() {
         mainPanel = new JPanel();
-        mainPanel.setLayout(new GridLayoutManager(1, 1, new Insets(0, 0, 0, 0), -1, -1));
+        mainPanel.setLayout(new GridLayoutManager(1, 1, new Insets(10, 10, 10, 10), -1, -1));
         final JSplitPane splitPane1 = new JSplitPane();
         mainPanel.add(splitPane1, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, null, new Dimension(200, 200), null, 0, false));
         final JSplitPane splitPane2 = new JSplitPane();
@@ -76,13 +89,13 @@ public class MainWindow implements IBaseObject<MainWindow> {
         final JPanel panel1 = new JPanel();
         panel1.setLayout(new GridLayoutManager(1, 2, new Insets(1, 1, 1, 1), -1, -1));
         splitPane2.setLeftComponent(panel1);
-        darkJPanel = new JPanel();
-        darkJPanel.setLayout(new GridLayoutManager(1, 1, new Insets(10, 10, 10, 10), -1, -1));
-        panel1.add(darkJPanel, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, null, null, null, 0, false));
-        darkJPanel.setBorder(BorderFactory.createTitledBorder(null, "Bark推送", TitledBorder.DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, null));
+        barkJPanel = new JPanel();
+        barkJPanel.setLayout(new GridLayoutManager(1, 1, new Insets(10, 10, 10, 10), -1, -1));
+        panel1.add(barkJPanel, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, null, null, null, 0, false));
+        barkJPanel.setBorder(BorderFactory.createTitledBorder(null, "Bark推送", TitledBorder.DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, null));
         final JPanel panel2 = new JPanel();
         panel2.setLayout(new GridLayoutManager(2, 1, new Insets(0, 0, 0, 0), -1, -1));
-        darkJPanel.add(panel2, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, null, null, null, 0, false));
+        barkJPanel.add(panel2, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, null, null, null, 0, false));
         barkField = new JTextField();
         barkField.setHorizontalAlignment(10);
         barkField.setMargin(new Insets(2, 6, 2, 6));
@@ -155,10 +168,16 @@ public class MainWindow implements IBaseObject<MainWindow> {
         splitPane1.setLeftComponent(splitPane3);
         storeJPanel = new JPanel();
         storeJPanel.setLayout(new GridLayoutManager(1, 1, new Insets(5, 5, 5, 5), -1, -1));
+        storeJPanel.setAlignmentX(0.5f);
+        storeJPanel.setAutoscrolls(false);
         splitPane3.setLeftComponent(storeJPanel);
         storeJPanel.setBorder(BorderFactory.createTitledBorder(null, "零售店", TitledBorder.DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, null));
         modeJPanel = new JPanel();
         modeJPanel.setLayout(new GridLayoutManager(1, 1, new Insets(0, 0, 0, 0), -1, -1));
+        modeJPanel.setAutoscrolls(false);
+        modeJPanel.setInheritsPopupMenu(false);
+        modeJPanel.setMaximumSize(new Dimension(200, 300));
+        modeJPanel.setRequestFocusEnabled(false);
         splitPane3.setRightComponent(modeJPanel);
         modeJPanel.setBorder(BorderFactory.createTitledBorder(null, "监控型号", TitledBorder.DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, null));
     }

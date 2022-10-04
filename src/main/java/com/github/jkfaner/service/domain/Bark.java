@@ -1,4 +1,4 @@
-package com.github.jkfaner.bean;
+package com.github.jkfaner.server.bean;
 
 import lombok.Data;
 

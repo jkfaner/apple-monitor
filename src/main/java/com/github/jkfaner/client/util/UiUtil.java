@@ -51,8 +51,7 @@ public class UIUtil {
      * 主题是否黑暗
      */
     public static boolean isDarkLaf() {
-        return ThemeConstants.FLAT_DARK_THEME.equals(Application.config.getTheme())
-                || ThemeConstants.FLAT_DARCULA_THEME.equals(Application.config.getTheme())
+        return ThemeConstants.FLAT_DARCULA_THEME.equals(Application.config.getTheme())
                 || ThemeConstants.DARK_PURPLE_THEME.equals(Application.config.getTheme());
     }
 }
