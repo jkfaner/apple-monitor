@@ -1,0 +1,1087 @@
+{
+  "data": [
+    {
+      "label": "iPhone",
+      "value": "iPhone",
+      "generations": [
+        {
+          "label": "14",
+          "value": "14",
+          "series": [
+            {
+              "label": "14",
+              "value": "14",
+              "name": "iPhone 14",
+              "models": [
+                 {
+                  "model": "MPVG3CH/A",
+                  "name": "iPhone 14 128GB 蓝色",
+                  "color": "蓝色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MPUW3CH/A",
+                  "name": "iPhone 14 128GB 紫色",
+                  "color": "紫色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MPU93CH/A",
+                  "name": "iPhone 14 128GB 午夜色",
+                  "color": "午夜色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MPUJ3CH/A",
+                  "name": "iPhone 14 128GB 星光色",
+                  "color": "星光色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MPV63CH/A",
+                  "name": "iPhone 14 128GB 红色",
+                  "color": "红色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MPWL3CH/A",
+                  "name": "iPhone 14 256GB 蓝色",
+                  "color": "蓝色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MPW73CH/A",
+                  "name": "iPhone 14 256GB 紫色",
+                  "color": "紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MPVU3CH/A",
+                  "name": "iPhone 14 256GB 午夜色",
+                  "color": "午夜色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MPW13CH/A",
+                  "name": "iPhone 14 256GB 星光色",
+                  "color": "星光色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MPWE3CH/A",
+                  "name": "iPhone 14 256GB 红色",
+                  "color": "红色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MPXK3CH/A",
+                  "name": "iPhone 14 512GB 蓝色",
+                  "color": "蓝色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MPX63CH/A",
+                  "name": "iPhone 14 512GB 紫色",
+                  "color": "紫色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MPWT3CH/A",
+                  "name": "iPhone 14 512GB 午夜色",
+                  "color": "午夜色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MPX03CH/A",
+                  "name": "iPhone 14 512GB 星光色",
+                  "color": "星光色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MPXD3CH/A",
+                  "name": "iPhone 14 512GB 红色",
+                  "color": "红色",
+                  "capacity": "512GB"
+                }
+              ]
+            },
+            {
+              "label": "Plus",
+              "value": "Plus",
+              "name": "iPhone 14 Plus",
+              "models": [
+                {
+                  "model": "MQ3A3CH/A",
+                  "name": "iPhone 14 Plus 128GB 蓝色",
+                  "color": "蓝色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ373CH/A",
+                  "name": "iPhone 14 Plus 128GB 紫色",
+                  "color": "紫色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ353CH/A",
+                  "name": "iPhone 14 Plus 128GB 午夜色",
+                  "color": "午夜色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ363CH/A",
+                  "name": "iPhone 14 Plus 128GB 星光色",
+                  "color": "星光色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ393CH/A",
+                  "name": "iPhone 14 Plus 128GB 红色",
+                  "color": "红色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ3G3CH/A",
+                  "name": "iPhone 14 Plus 256GB 蓝色",
+                  "color": "蓝色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ3E3CH/A",
+                  "name": "iPhone 14 Plus 256GB 紫色",
+                  "color": "紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ3C3CH/A",
+                  "name": "iPhone 14 Plus 256GB 午夜色",
+                  "color": "午夜色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ3D3CH/A",
+                  "name": "iPhone 14 Plus 256GB 星光色",
+                  "color": "星光色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ3F3CH/A",
+                  "name": "iPhone 14 Plus 256GB 红色",
+                  "color": "红色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ3Q3CH/A",
+                  "name": "iPhone 14 Plus 512GB 蓝色",
+                  "color": "蓝色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ3K3CH/A",
+                  "name": "iPhone 14 Plus 512GB 紫色",
+                  "color": "紫色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ3H3CH/A",
+                  "name": "iPhone 14 Plus 512GB 午夜色",
+                  "color": "午夜色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ3J3CH/A",
+                  "name": "iPhone 14 Plus 512GB 星光色",
+                  "color": "星光色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ3P3CH/A",
+                  "name": "iPhone 14 Plus 512GB 红色",
+                  "color": "红色",
+                  "capacity": "512GB"
+                }
+              ]
+            },
+            {
+              "label": "Pro",
+              "value": "Pro",
+              "name": "iPhone 14 Pro",
+              "models": [
+                {
+                  "model": "MQ0D3CH/A",
+                  "name": "iPhone 14 Pro 128GB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ1C3CH/A",
+                  "name": "iPhone 14 Pro 256GB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ263CH/A",
+                  "name": "iPhone 14 Pro 512GB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ2Y3CH/A",
+                  "name": "iPhone 14 Pro 1TB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MQ053CH/A",
+                  "name": "iPhone 14 Pro 128GB 金色",
+                  "color": "金色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ143CH/A",
+                  "name": "iPhone 14 Pro 256GB 金色",
+                  "color": "金色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ203CH/A",
+                  "name": "iPhone 14 Pro 512GB 金色",
+                  "color": "金色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ2R3CH/A",
+                  "name": "iPhone 14 Pro 1TB 金色",
+                  "color": "金色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MPXY3CH/A",
+                  "name": "iPhone 14 Pro 128GB 银色",
+                  "color": "银色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ0W3CH/A",
+                  "name": "iPhone 14 Pro 256GB 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ1R3CH/A",
+                  "name": "iPhone 14 Pro 512GB 银色",
+                  "color": "银色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ2K3CH/A",
+                  "name": "iPhone 14 Pro 1TB 银色",
+                  "color": "银色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MPXR3CH/A",
+                  "name": "iPhone 14 Pro 128GB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ0M3CH/A",
+                  "name": "iPhone 14 Pro 256GB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ1J3CH/A",
+                  "name": "iPhone 14 Pro 512GB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ2D3CH/A",
+                  "name": "iPhone 14 Pro 1TB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "1TB"
+                }
+              ]
+            },
+            {
+              "label": "ProMax",
+              "value": "ProMax",
+              "name": "iPhone 14 Pro Max",
+              "models": [
+                {
+                  "model": "MQ863CH/A",
+                  "name": "iPhone 14 Pro Max 128GB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ8A3CH/A",
+                  "name": "iPhone 14 Pro Max 256GB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ8G3CH/A",
+                  "name": "iPhone 14 Pro Max 512GB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ8M3CH/A",
+                  "name": "iPhone 14 Pro Max 1TB 暗紫色",
+                  "color": "暗紫色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MQ853CH/A",
+                  "name": "iPhone 14 Pro Max 128GB 金色",
+                  "color": "金色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ893CH/A",
+                  "name": "iPhone 14 Pro Max 256GB 金色",
+                  "color": "金色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ8F3CH/A",
+                  "name": "iPhone 14 Pro Max 512GB 金色",
+                  "color": "金色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ8L3CH/A",
+                  "name": "iPhone 14 Pro Max 1TB 金色",
+                  "color": "金色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MQ843CH/A",
+                  "name": "iPhone 14 Pro Max 128GB 银色",
+                  "color": "银色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ883CH/A",
+                  "name": "iPhone 14 Pro Max 256GB 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ8E3CH/A",
+                  "name": "iPhone 14 Pro Max 512GB 银色",
+                  "color": "银色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ8J3CH/A",
+                  "name": "iPhone 14 Pro Max 1TB 银色",
+                  "color": "银色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MQ833CH/A",
+                  "name": "iPhone 14 Pro Max 128GB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MQ873CH/A",
+                  "name": "iPhone 14 Pro Max 256GB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MQ8D3CH/A",
+                  "name": "iPhone 14 Pro Max 512GB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MQ8H3CH/A",
+                  "name": "iPhone 14 Pro Max 1TB 深空黑色",
+                  "color": "深空黑色",
+                  "capacity": "1TB"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "iPad",
+      "value": "iPad",
+      "generations": [
+        {
+          "label": "2022",
+          "value": "2022",
+          "series": [
+            {
+              "label": "2022",
+              "value": "2022",
+              "name": "iPad",
+              "models": [
+                {
+                  "model": "MK2K3CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi 64GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK2L3CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi 64GB - 银色",
+                  "color": "银色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK2N3CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK2P3CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi 256GB - 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK603CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi + 蜂窝网络 64GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK643CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi + 蜂窝网络 256GB - 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK633CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi + 蜂窝网络 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK613CH/A",
+                  "name": "10.2 英寸 iPad Wi‑Fi + 蜂窝网络 64GB - 银色",
+                  "color": "银色",
+                  "capacity": "64GB"
+                }
+              ]
+            },
+            {
+              "label": "Air",
+              "value": "Air",
+              "name": "iPad Air",
+              "models": [
+                {
+                  "model": "MM9C3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 64GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM9D3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 64GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM9E3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 64GB - 蓝色",
+                  "color": "蓝色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MME23CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 64GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM9F3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 64GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM9L3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MM9M3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 256GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MM9N3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 256GB - 蓝色",
+                  "color": "蓝色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MME63CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 256GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MM9P3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi 256GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MM753CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 64GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM763CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 64GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM773CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 64GB - 蓝色",
+                  "color": "蓝色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MMEF3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 64GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM783CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 64GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MM7E3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MM7F3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 256GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MM7G3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 256GB - 蓝色",
+                  "color": "蓝色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MMEX3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 256GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MM7H3CH/A",
+                  "name": "10.9 英寸 iPad Air Wi-Fi + 蜂窝网络 256GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "256GB"
+                }
+              ]
+            },
+            {
+              "label": "Mini",
+              "value": "Mini",
+              "name": "iPad Mini",
+              "models": [
+                {
+                  "model": "MK7M3CH/A",
+                  "name": "iPad mini Wi‑Fi 64GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MLWL3CH/A",
+                  "name": "iPad mini Wi‑Fi 64GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK7R3CH/A",
+                  "name": "iPad mini Wi‑Fi 64GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK7P3CH/A",
+                  "name": "iPad mini Wi‑Fi 64GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK7T3CH/A",
+                  "name": "iPad mini Wi‑Fi 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MLWR3CH/A",
+                  "name": "iPad mini Wi‑Fi 256GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK7X3CH/A",
+                  "name": "iPad mini Wi‑Fi 256GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK7V3CH/A",
+                  "name": "iPad mini Wi‑Fi 256GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK8Y3CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 64GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MLXA3CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 64GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK933CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 64GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK913CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 64GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "64GB"
+                },
+                {
+                  "model": "MK943CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MLXG3CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 256GB - 粉色",
+                  "color": "粉色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK983CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 256GB - 紫色",
+                  "color": "紫色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MK963CH/A",
+                  "name": "iPad mini Wi‑Fi + 蜂窝网络 256GB - 星光色",
+                  "color": "星光色",
+                  "capacity": "256GB"
+                }
+              ]
+            },
+            {
+              "label": "Pro",
+              "value": "Pro",
+              "name": "iPad Pro",
+              "models": [
+                {
+                  "model": "MHQR3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 128GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHQT3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 128GB - 银色",
+                  "color": "银色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHQU3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHQV3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 256GB - 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHQW3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 512GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHQX3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 512GB - 银色",
+                  "color": "银色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHQY3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 1TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHR03CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 1TB - 银色",
+                  "color": "银色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHR23CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 2TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "2TB"
+                },
+                {
+                  "model": "MHR33CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi 2TB - 银色",
+                  "color": "银色",
+                  "capacity": "2TB"
+                },
+                {
+                  "model": "MHWG3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 128GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHWH3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 128GB - 银色",
+                  "color": "银色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHWJ3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHWK3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 256GB - 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHWL3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 512GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHWM3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 512GB - 银色",
+                  "color": "银色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHWN3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 1TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHWP3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 1TB - 银色",
+                  "color": "银色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHWQ3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 2TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "2TB"
+                },
+                {
+                  "model": "MHWR3CH/A",
+                  "name": "11 英寸 iPad Pro Wi-Fi + 蜂窝网络 2TB - 银色",
+                  "color": "银色",
+                  "capacity": "2TB"
+                },
+                {
+                  "model": "MHNF3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 128GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHNG3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 128GB - 银色",
+                  "color": "银色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHNH3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHNJ3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 256GB - 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHNK3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 512GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHNL3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 512GB - 银色",
+                  "color": "银色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHNM3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 1TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHNN3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 1TB - 银色",
+                  "color": "银色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHNP3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 2TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "2TB"
+                },
+                {
+                  "model": "MHNQ3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi 2TB - 银色",
+                  "color": "银色",
+                  "capacity": "2TB"
+                },
+                {
+                  "model": "MHRF3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 128GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHRG3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 128GB - 银色",
+                  "color": "银色",
+                  "capacity": "128GB"
+                },
+                {
+                  "model": "MHRH3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 256GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHRJ3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 256GB - 银色",
+                  "color": "银色",
+                  "capacity": "256GB"
+                },
+                {
+                  "model": "MHRK3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 512GB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHRL3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 512GB - 银色",
+                  "color": "银色",
+                  "capacity": "512GB"
+                },
+                {
+                  "model": "MHRM3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 1TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHRN3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 1TB - 银色",
+                  "color": "银色",
+                  "capacity": "1TB"
+                },
+                {
+                  "model": "MHRP3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 2TB - 深空灰色",
+                  "color": "深空灰色",
+                  "capacity": "2TB"
+                },
+                {
+                  "model": "MHRQ3CH/A",
+                  "name": "12.9 英寸 iPad Pro Wi-Fi + 蜂窝网络 2TB - 银色",
+                  "color": "银色",
+                  "capacity": "2TB"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Watch",
+      "value": "Apple Watch",
+      "generations": [
+        {
+          "label": "2022",
+          "value": "2022",
+          "series": [
+            {
+              "label": "Ultra",
+              "value": "Ultra",
+              "name": "Apple Watch Ultra",
+              "models": [
+                {
+                  "model": "MQFA3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；星光色高山回环式表带 - 小号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQFC3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；星光色高山回环式表带 - 中号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQFD3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；星光色高山回环式表带 - 大号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MNHQ3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；绿色高山回环式表带 - 小号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQF83CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；绿色高山回环式表带 - 中号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQF93CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；绿色高山回环式表带 - 大号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MNHP3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；橙色高山回环式表带 - 小号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQFJ3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；橙色高山回环式表带 - 中号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQF73CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；橙色高山回环式表带 - 大号",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MNHR3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；黄配米色野径回环式表带 - S/M",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQFE3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；黄配米色野径回环式表带 - M/L",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MNHT3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；蓝配灰色野径回环式表带 - S/M",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQFF3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；蓝配灰色野径回环式表带 - M/L",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQFG3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；黑配灰色野径回环式表带 - S/M",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQFH3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；黑配灰色野径回环式表带 - M/L",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MQF63CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；午夜色海洋表带",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MNHM3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；白色海洋表带",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                },
+                {
+                  "model": "MNHN3CH/A",
+                  "name": "Apple Watch Ultra (GPS + 蜂窝网络)；49 毫米钛金属表壳；黄色海洋表带",
+                  "color": "钛金属表壳",
+                  "size": "49mm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
