@@ -1,11 +1,11 @@
-package com.github.jkfaner.extract;
+package com.github.jkfaner.service.extract;
 
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.github.jkfaner.common.IBaseObject;
-import com.github.jkfaner.domain.vo.AddressVo;
-import com.github.jkfaner.util.JsonPathFinder;
+import com.github.jkfaner.domain.vo.SAddressVo;
+import com.github.jkfaner.common.util.JsonPathFinder;
 
 import java.util.List;
 
@@ -33,11 +33,11 @@ public class AddressExtract implements IBaseObject<AddressExtract> {
      * @param jsonStr 数据
      * @return 结果
      */
-    public List<AddressVo> addressList(String jsonStr) {
+    public List<SAddressVo> addressList(String jsonStr) {
         JsonPathFinder jsonPathFinder = new JsonPathFinder(jsonStr);
         Object data = jsonPathFinder.getValue("data", 1);
         JSONArray array = (JSONArray) data;
-        List<AddressVo> addressVos = array.toList(AddressVo.class);
+        List<SAddressVo> addressVos = array.toList(SAddressVo.class);
         if (jsonPathFinder.checkKeyExist("city")) {
             String city = jsonPathFinder.getFirst("city").toString();
             addressVos.forEach(e -> e.setCity(city));

@@ -1,4 +1,4 @@
-package com.github.jkfaner.service;
+package com.github.jkfaner.service.service;
 
 import cn.hutool.http.HttpUtil;
 import com.github.jkfaner.common.IBaseObject;

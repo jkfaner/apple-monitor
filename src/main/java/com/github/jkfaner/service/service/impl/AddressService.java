@@ -1,9 +1,9 @@
-package com.github.jkfaner.service;
+package com.github.jkfaner.service.service;
 
 import cn.hutool.http.HttpUtil;
 import com.github.jkfaner.common.IBaseObject;
 import com.github.jkfaner.constant.ServerConstants;
-import com.github.jkfaner.domain.dto.AddressDto;
+import com.github.jkfaner.domain.dto.SAddressDto;
 
 import java.util.HashMap;
 
@@ -26,7 +26,7 @@ public class AddressService implements IBaseObject<AddressService> {
      * @param address 地址
      * @return 结果
      */
-    public String addressList(AddressDto address) {
+    public String addressList(SAddressDto address) {
         String result;
         if (address.getState() == null) {
             result = HttpUtil.get(ServerConstants.ADDRESS_LOOKUP_URL);

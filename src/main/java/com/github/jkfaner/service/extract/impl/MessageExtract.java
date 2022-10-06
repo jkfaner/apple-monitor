@@ -1,4 +1,4 @@
-package com.github.jkfaner.extract;
+package com.github.jkfaner.service.extract;
 
 import cn.hutool.json.JSONArray;
 import com.github.jkfaner.common.IBaseObject;
@@ -6,8 +6,8 @@ import com.github.jkfaner.constant.ServerConstants;
 import com.github.jkfaner.domain.bo.fulfillment.InventoryBo;
 import com.github.jkfaner.domain.bo.fulfillment.MessageTypeBo;
 import com.github.jkfaner.domain.bo.fulfillment.ProductBo;
-import com.github.jkfaner.domain.vo.InventoryVo;
-import com.github.jkfaner.util.JsonPathFinder;
+import com.github.jkfaner.domain.vo.SInventoryVo;
+import com.github.jkfaner.common.util.JsonPathFinder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,12 +34,12 @@ public class MessageExtract implements IBaseObject<MessageExtract> {
      *
      * @return 结果
      */
-    public ArrayList<InventoryVo> checkInventory(List<InventoryBo> inventoryBoList) {
-        ArrayList<InventoryVo> inventoryVos = new ArrayList<>();
+    public ArrayList<SInventoryVo> checkInventory(List<InventoryBo> inventoryBoList) {
+        ArrayList<SInventoryVo> inventoryVos = new ArrayList<>();
         for (InventoryBo inventoryBo : inventoryBoList) {
             Map<String, ProductBo> productBoMap = inventoryBo.getPartsAvailability();
             for (String key : productBoMap.keySet()) {
-                InventoryVo inventoryVo = new InventoryVo();
+                SInventoryVo inventoryVo = new SInventoryVo();
                 inventoryVo.setCity(inventoryBo.getCity());
                 inventoryVo.setState(inventoryBo.getState());
                 inventoryVo.setStoreName(inventoryBo.getStoreName());

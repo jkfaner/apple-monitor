@@ -1,10 +1,10 @@
-package com.github.jkfaner.service;
+package com.github.jkfaner.service.service;
 
 import cn.hutool.http.HttpUtil;
 import com.github.jkfaner.common.IBaseObject;
 import com.github.jkfaner.constant.ServerConstants;
-import com.github.jkfaner.domain.dto.InventoryDto;
-import com.github.jkfaner.domain.dto.PreciseInventoryDto;
+import com.github.jkfaner.domain.dto.SInventoryDto;
+import com.github.jkfaner.domain.dto.SPreciseInventoryDto;
 
 import java.util.HashMap;
 import java.util.List;
@@ -35,7 +35,7 @@ public class MessageService implements IBaseObject<MessageService> {
     /**
      * 供货查询：此地附近的Apple Store零售店
      */
-    public String checkLocalInventory(InventoryDto inventory) {
+    public String checkLocalInventory(SInventoryDto inventory) {
         HashMap<String, Object> hashMap = initParams();
         List<String> modelList = inventory.getModelList();
         for (int i = 0; i < modelList.size(); i++) {
@@ -48,7 +48,7 @@ public class MessageService implements IBaseObject<MessageService> {
     /**
      * 供货查询：精确的Apple Store零售店
      */
-    public String checkLocalPreciseInventory(PreciseInventoryDto preciseInventory) {
+    public String checkLocalPreciseInventory(SPreciseInventoryDto preciseInventory) {
         HashMap<String, Object> hashMap = initParams();
         List<String> modelList = preciseInventory.getModelList();
         for (int i = 0; i < modelList.size(); i++) {

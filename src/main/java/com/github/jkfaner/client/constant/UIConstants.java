@@ -1,4 +1,4 @@
-package com.github.jkfaner.ui.constant;
+package com.github.jkfaner.client.ui.constant;
 
 import java.awt.*;
 

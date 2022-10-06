@@ -1,11 +1,12 @@
-package com.github.jkfaner.util;
+package com.github.jkfaner.client.util;
 
 
 import java.awt.*;
 
-import com.github.jkfaner.Application;
-import com.github.jkfaner.ui.constant.ThemeConstants;
+import com.github.jkfaner.client.ui.constant.ThemeConstants;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * UI工具类
@@ -13,7 +14,11 @@ import lombok.extern.slf4j.Slf4j;
  * @since: 2022-10-01
  **/
 @Slf4j
-public class UIUtil {
+@Component
+public class UiUtil {
+
+    @Autowired
+    ConfigUtil configUtil;
 
     /**
      * 获取屏幕规格
@@ -50,8 +55,9 @@ public class UIUtil {
     /**
      * 主题是否黑暗
      */
-    public static boolean isDarkLaf() {
-        return ThemeConstants.FLAT_DARCULA_THEME.equals(Application.config.getTheme())
-                || ThemeConstants.DARK_PURPLE_THEME.equals(Application.config.getTheme());
+    public boolean isDarkLaf() {
+        String theme = configUtil.getTheme();
+        return ThemeConstants.FLAT_DARCULA_THEME.equals(theme)
+                || ThemeConstants.DARK_PURPLE_THEME.equals(theme);
     }
 }

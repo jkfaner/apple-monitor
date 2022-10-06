@@ -1,10 +1,9 @@
-package com.github.jkfaner.extract;
+package com.github.jkfaner.service.extract;
 
 import cn.hutool.json.JSONArray;
 import com.github.jkfaner.common.IBaseObject;
 import com.github.jkfaner.domain.bo.autocomplete.StoreDataBo;
-import com.github.jkfaner.domain.bo.fulfillment.InventoryBo;
-import com.github.jkfaner.util.JsonPathFinder;
+import com.github.jkfaner.common.util.JsonPathFinder;
 
 import java.util.List;
 
