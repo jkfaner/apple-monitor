@@ -61,4 +61,10 @@
   <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window02.png">
    <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window02.png">
   </a>
-</p>  
+</p> 
+
+### 参考
+https://github.com/rememberber/WePush
+https://github.com/rememberber/MooInfo
+### 鸣谢
+<a target="_blank" href="https://icons8.com/icon/48112/mac-os">Mac OS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
