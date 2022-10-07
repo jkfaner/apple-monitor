@@ -52,3 +52,13 @@
    <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/start02.png">
   </a>
 </p>  
+<p align="center">
+  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window01.png">
+   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window01.png">
+  </a>
+</p>  
+<p align="center">
+  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window02.png">
+   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window02.png">
+  </a>
+</p>  
