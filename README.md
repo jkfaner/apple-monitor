@@ -7,9 +7,7 @@
 
 # 苹果库存监控（Apple Monitor）
 
-> 本项目基于远古技术swing和新势力spring IOC容器。
-<br>
-> 数据均来自apple.com
+> 本项目基于远古技术swing和新势力spring IOC容器。（数据均来自apple.com）
 
 [![GitHub stars](https://img.shields.io/github/stars/jkfaner/apple-monitor.svg)](https://github.com/jkfaner/apple-monitor)
 [![GitHub license](https://img.shields.io/github/license/jkfaner/apple-monitor.svg)](https://github.com/jkfaner/apple-monitor/LICENSE.txt)
