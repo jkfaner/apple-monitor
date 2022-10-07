@@ -26,45 +26,26 @@
   <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window.png">
    <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window.png">
   </a>
-</p>  
-<p align="center">
-  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/select-address.png">
-   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/select-address.png">
-  </a>
-</p>  
-<p align="center">
-  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/select-model.png">
-   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/select-model.png">
-  </a>
-</p>  
-<p align="center">
-  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/select-time.png">
-   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/select-time.png">
-  </a>
-</p>  
+</p>
 <p align="center">
   <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/start01.png">
    <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/start01.png">
   </a>
-</p>  
-<p align="center">
-  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/start02.png">
-   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/start02.png">
-  </a>
-</p>  
+</p>
 <p align="center">
   <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window01.png">
    <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window01.png">
   </a>
-</p>  
-<p align="center">
-  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window02.png">
-   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/main-window02.png">
-  </a>
-</p> 
+</p>
 
 ### 参考
 + https://github.com/rememberber/WePush
 + https://github.com/rememberber/MooInfo
 ### 鸣谢
 <a target="_blank" href="https://icons8.com/icon/48112/mac-os">Mac OS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+### 支持
+<p align="center">
+  <a href="https://github.com/jkfaner/apple-monitor/blob/master/image/sponsor.jpg">
+   <img alt="apple-monitor" src="https://github.com/jkfaner/apple-monitor/blob/master/image/sponsor.jpg">
+  </a>
+</p>
