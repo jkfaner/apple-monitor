@@ -64,7 +64,7 @@
 </p> 
 
 ### 参考
-https://github.com/rememberber/WePush
-https://github.com/rememberber/MooInfo
++ https://github.com/rememberber/WePush
++ https://github.com/rememberber/MooInfo
 ### 鸣谢
 <a target="_blank" href="https://icons8.com/icon/48112/mac-os">Mac OS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
